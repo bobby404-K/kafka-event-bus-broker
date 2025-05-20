@@ -1,0 +1,11 @@
+{
+  "name": "kafka-event-bus-broker",
+  "version": "1.7.0",
+  "description": "Distributed event bus broker with partitioned topic logs and consumer groups",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  }
+}
